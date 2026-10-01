@@ -1,0 +1,21 @@
+name: Feedback or idea
+description: What was confusing, what was fun, what you would change.
+labels: [feedback]
+body:
+  - type: textarea
+    id: feedback
+    attributes:
+      label: Your feedback
+      description: For example - was the turning ring clear, was Orbit too easy or too hard, did Flip make sense?
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: Device and browser (optional)
+      placeholder: iPhone 15, Safari
+  - type: input
+    id: version
+    attributes:
+      label: Game version (optional)
+      description: Shown at the bottom of Settings in the game.

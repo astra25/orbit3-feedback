@@ -1,0 +1,39 @@
+name: Something went wrong
+description: A glitch, a wrong result, a stuck move, or a layout problem.
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What you did, what you expected, and what happened instead.
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: Device and browser
+      placeholder: Pixel 8, Chrome
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Game version
+      description: Shown at the bottom of Settings in the game.
+      placeholder: 0.1.0 beta
+  - type: dropdown
+    id: where
+    attributes:
+      label: Where did it happen?
+      options:
+        - Solo
+        - Together
+        - Journey
+        - Home or Settings
+        - Not sure
+  - type: textarea
+    id: extra
+    attributes:
+      label: Anything else?
+      description: A screenshot helps. Please don't include personal information.
