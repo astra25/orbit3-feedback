@@ -21,6 +21,8 @@ It helps a lot if you mention:
 
 A screenshot is welcome. Please don't include personal information.
 
+No GitHub account? You can also email orbit3app@gmail.com.
+
 ## Privacy
 
-The game stores your scores and settings on your device only. The privacy policy is at https://www.orbit3.app/privacy.html. Privacy questions can be asked here as an issue.
+The game stores your scores and settings on your device only. The privacy policy is at https://www.orbit3.app/privacy.html. Privacy questions can be asked here as an issue or emailed to orbit3app@gmail.com.
